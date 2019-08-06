@@ -1,0 +1,22 @@
+.ToDos {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.ToDos-list {
+  margin-left: 55px;
+  margin-top: 55px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ToDos-list .title {
+  font-size: 3rem;
+}
+.ToDos-list .done {
+  font-size: 2rem;
+  position: absolute;
+  color: gray;
+  right: 25px;
+}

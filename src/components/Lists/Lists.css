@@ -1,0 +1,41 @@
+.Lists {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid gainsboro;
+  overflow: hidden;
+}
+
+.Lists .title {
+  font-size: 2rem;
+  height: 50px;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.Lists .search {
+  height: 25px;
+  padding: 5px;
+  background-color: #e8e8e8;
+}
+
+.Lists-names {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Lists-names > * {
+  min-height: 50px;
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid gainsboro;
+}
+
+.selected {
+  min-height: 50px;
+  box-shadow: none;
+  border: 1px solid gainsboro;
+  background-color: green;
+}
